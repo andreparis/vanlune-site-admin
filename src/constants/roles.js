@@ -1,0 +1,31 @@
+export const ROLES = {
+    'accounts': {key: 'account', value:["POST", "PUT", "DELETE"]},
+    'accounts/changepassowrd': {key:'accounts/changepassowrd',value: ["POST"]},
+    'accounts/claims': {key:'accounts/claims', value:["POST"]},
+    'accounts/filters': {key: 'accounts/filters', value:["GET"]},
+    'accounts/roles': {key: 'accounts/roles', value:["POST", "GET"]},
+    'accounts/roles/claims/patch': {key:'accounts/roles/claims/patch', value:["POST"]},
+    'accounts/roles/patch': {key: 'accounts/roles/patch', value:["POST"]},
+    
+    'orders': {key: 'orders', value: ["GET", "POST", "PUT"]},
+    'orders/all': {key: 'orders/all', value: ["GET"]},
+    'orders/assign': {key: 'orders/assign', value: ["POST"]},
+    'orders/filters': {key: 'orders/filters', value: ["GET"]},
+    'orders/status': {key: 'orders/status', value: ["GET"]},
+    'orders/user': {key: 'orders/user', value: ["GET"]},
+    'orders/user/email': {key: 'orders/user/email', value:["GET"]},
+
+    'products': {key: 'products', value:["POST", "PUT", "DELETE", "GET"]},
+    'products/get': {key: 'products', value: ["GET"]},
+    'products/category': {key: 'products/category', value: ["POST", "PUT", "GET", "DELETE"]},
+    'products/category/all': {key: 'products/category/all', value:"GET"},
+    'products/category/game': {key: 'products/category/game', value: ["GET"]},
+    'products/customize': {key: 'products/customize', value:["POST", "PUT", "DELETE"]},
+    'products/customize/filters':{key: 'products/customize/filters', value:["GET"]},
+    'products/filters': {key: 'products/filters', value:["GET", "OPTIONS"]},
+    'products/games/all': {key: 'products/games/all', value:["GET"]},
+    'products/tags': {key: 'products/tags', value: ["POST", "GET"]},
+    'products/upload': {key: 'products/upload', value: "POST"},
+    'products/variants': {key: 'products/variants', value:["POST", "GET"]},
+    'products/variants/servers': {key: 'products/variants/servers', value: ["GET"]}
+};
